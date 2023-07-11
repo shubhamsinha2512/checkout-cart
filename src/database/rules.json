@@ -1,0 +1,28 @@
+[
+    {
+        "conditions":{
+            "sku":"op11",
+            "operator":"gte",
+            "value":4,
+            "priority":1
+        },
+        "offer":{
+            "offerType":"price-discount",
+            "discountType": "flat-price",
+            "value":899.99
+        }
+    },
+    {
+        "conditions":{
+            "sku":"op10",
+            "operator":"eq",
+            "value":3,
+            "priority":2
+        },
+        "offer":{
+            "offerType":"unit-discount",
+            "discountType": "free-unit",
+            "value":1
+        }
+    }
+]

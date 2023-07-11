@@ -1,0 +1,22 @@
+[
+    {
+        "sku":"op10",
+        "name":"Oneplus 10",
+        "price":849.99
+    },
+    {
+        "sku":"op11",
+        "name":"Oneplus 11",
+        "price":949.99
+    },
+    {
+        "sku":"buds",
+        "name":"Earbuds",
+        "price":129.99
+    },
+    {
+        "sku":"wtch",
+        "name":"Smart Watch",
+        "price":229.99
+    }
+]
