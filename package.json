@@ -2,16 +2,19 @@
   "name": "checkout_system",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
-  "type": "module",
+  "main": "build/index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js"
+    "start": "tsc-watch --noClear --onSuccess \" node ./build/index.js\"",
+    "dev": "tsc-watch --noClear --onSuccess \" node ./build/index.js\""
   },
   "author": "Shubham Sinha",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.4.1",
+    "tsc-node": "^0.0.3",
+    "tsc-watch": "^6.0.4",
     "typescript": "^5.1.6"
   }
 }
